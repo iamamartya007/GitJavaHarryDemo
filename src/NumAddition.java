@@ -10,6 +10,7 @@ public class NumAddition {
         int b = 9;
         int c = 22;
         int d = a + b + c; // Calculate the sum and store it in d
-        System.out.println(" sum d : " + d); // Print the result
+        System.out.println(" sum d : " + d);
+
     }
 }
