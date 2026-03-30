@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.* ;
 public class UserInput {
     public static void main(String[] args) {
@@ -19,6 +20,12 @@ public class UserInput {
         boolean b = sc.hasNextInt() ;
         System.out.println ("Sysso "+b);
 
+        System.out.println(" Add Anything ");
+        String scr = sc1.next() ;
+        System.out.println(" String " +scr);
 
+        System.out.println(" Add Anything Line");
+        String scr2 = sc1.nextLine() ;
+        System.out.println(" String " +scr2);
     }
 }
