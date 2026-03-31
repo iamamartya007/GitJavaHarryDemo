@@ -6,14 +6,22 @@ public class PercentageModified {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("--- Enter your Marks ---");
-        System.out.print("Science: "); int science = sc.nextInt();
-        System.out.print("Math: "); int math = sc.nextInt();
-        System.out.print("Bio: "); int bio = sc.nextInt();
-        System.out.print("Geography: "); int geography = sc.nextInt();
-        System.out.print("History: "); int history = sc.nextInt();
-        System.out.print("Physics: "); int physics = sc.nextInt();
-        System.out.print("EVS: "); int evs = sc.nextInt();
-        System.out.print("Sports: "); int sports = sc.nextInt();
+        System.out.print("Science: ");
+        int science = sc.nextInt();
+        System.out.print("Math: ");
+        int math = sc.nextInt();
+        System.out.print("Bio: ");
+        int bio = sc.nextInt();
+        System.out.print("Geography: ");
+        int geography = sc.nextInt();
+        System.out.print("History: ");
+        int history = sc.nextInt();
+        System.out.print("Physics: ");
+        int physics = sc.nextInt();
+        System.out.print("EVS: ");
+        int evs = sc.nextInt();
+        System.out.print("Sports: ");
+        int sports = sc.nextInt();
 
 
         calculateAndDisplay(science, math, bio, geography, history, physics, evs, sports);
